@@ -1,0 +1,38 @@
+{
+  "name": "foryaru",
+  "version": "0.0.1",
+  "description": "foryaru",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start",
+    "testie69": "./node_modules/karma/bin/karma start karma.ie69.conf.js",
+    "lint": "./node_modules/eslint/bin/eslint.js test/*.js src/*.js"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olegsmetanin/foryaru.git"
+  },
+  "devDependencies": {
+    "babel": "latest",
+    "babel-core": "^4.7.8",
+    "babel-eslint": "^2.0.2",
+    "babel-loader": "^4.1.0",
+    "es5-shim": "^4.1.1",
+    "eslint": "^0.17.1",
+    "json2": "^0.4.0",
+    "karma": "^0.12.31",
+    "karma-babel-preprocessor": "^5.0.1",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-ievms": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "karma-sourcemap-loader": "^0.3.4",
+    "karma-spec-reporter": "0.0.18",
+    "karma-webpack": "^1.5.0",
+    "mocha": "^2.2.1",
+    "webpack": "^1.7.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "browser": {}
+}
