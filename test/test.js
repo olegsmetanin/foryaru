@@ -71,7 +71,7 @@ describe('Debounce', () => {
     };
 
     function eventHandler(event) {
-      assert.equal(event, context)
+      assert.equal(event, context);
       done();
     }
 
