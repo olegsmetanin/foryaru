@@ -88,4 +88,9 @@ describe('Find pair for sum', () => {
       [-30, 50]
     ]);
   });
+
+  it('is working properly for [10] and sum = 20', () => {
+    assert.equal(Solver.findPairsForSum([10], 20).length, 0);
+  });
+
 });
